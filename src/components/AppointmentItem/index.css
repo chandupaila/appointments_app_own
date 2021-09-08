@@ -1,0 +1,36 @@
+* {
+  font-family: roboto;
+}
+.list-item {
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .list-item {
+    width: 300px;
+    margin-left: 30px;
+  }
+}
+
+.title {
+  color: #171f46;
+  margin-bottom: 10px;
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+.date {
+  color: #b5b7c4;
+  font-weight: 400;
+}
+
+.list-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
